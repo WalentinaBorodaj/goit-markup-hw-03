@@ -28,14 +28,16 @@
           ><span class="logo-text">Web</span>Studio</a
         >
         <ul class="site-nav list">
-          <li><a class="main-nav-link current link" href="">Студия</a></li>
-          <li>
+          <li class="header-item">
+            <a class="main-nav-link current link" href="">Студия</a></li>
+          <li class="header-item">
             <a class="main-nav-link link" href="./portfolio.html">Портфолио</a>
           </li>
-          <li><a class="main-nav-link link" href="">Контакты</a></li>
+          <li class="header-item"><a class="main-nav-link link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="site-nav-contacts list container">
+      
+      <ul class="site-nav-contacts list">
         <li>
           <a class="link-contacts link" href="mailto:info@example.com"
             >info@example.com</a
@@ -47,6 +49,7 @@
           >
         </li>
       </ul>
+      
     </div>
       <hr>
     
@@ -56,8 +59,10 @@
     <main>
       <!-- Герой -->
       <section class="box">
+        <div class="container">
         <h1 class="box-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="box-title-btn">Заказать услугу</button>
+       <button type="button" class="box-title-btn">Заказать услугу</button>
+      </div>
       </section>
 
       <!-- Особенности -->
@@ -104,14 +109,14 @@
         <div class="container">
           <h2 class="works-title features">Чем мы занимаемся</h2>
           <ul class="works-list list">
-            <li>
+            <li class="works-img">
               <img src="./images/box1.jpg" alt="наша специфика" width="370" />
             </li>
 
-            <li>
+            <li class="works-img" >
               <img src="./images/box2.jpg" alt="наша специфика" width="370" />
             </li>
-            <li>
+            <li class="works-img">
               <img src="./images/box3.jpg" alt="наша специфика" width="370" />
             </li>
           </ul>
