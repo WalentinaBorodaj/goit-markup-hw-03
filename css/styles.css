@@ -71,6 +71,9 @@ img {
 }
 
 /*-------- site-nav-header---------- */
+.page-header{
+  border-bottom: 1px solid #ececec;
+}
 .page-header .container {
   display: flex;
   align-items: center;
@@ -118,11 +121,7 @@ img {
 .current {
   color: var(--accent-color);
 }
-hr {
-  border: 1px solid #ececec;
-  padding: 0;
-  margin: 0;
-}
+
 .header-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -200,6 +199,7 @@ hr {
 }
 
 .about-title {
+  font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
@@ -221,6 +221,9 @@ hr {
   margin-bottom: 0;
 }
 /* --------WORKS--------------------- */
+.works{
+  padding-bottom: 94px;
+}
 
 .works-list {
   display: flex;
@@ -240,6 +243,7 @@ hr {
 /* ---------MASTERS----------------- */
 .masters {
   background-color: #f5f4fa;
+  padding-top: 0;
 }
 .masters-list {
   display: flex;
@@ -284,7 +288,7 @@ hr {
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 10px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 /* --------FOOTER--------------- */
@@ -386,12 +390,15 @@ hr {
 /* -------work-examples ---------*/
 
 .card {
-  border-bottom: 1px solid #eeeeee;
-  background: #ffffff;
-  box-sizing: border-box;
+   box-sizing: border-box;
 }
 .card-content {
   padding: 20px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  background: #ffffff;
+  box-sizing: border-box;
 }
 .portfolio-examples-title {
   font-weight: bold;
@@ -408,7 +415,7 @@ hr {
   margin-top: 4px;
 }
 .portfolio-examples-list {
-  padding: 0;
+  padding-bottom: 94px;
   margin: 0;
   list-style: none;
 
